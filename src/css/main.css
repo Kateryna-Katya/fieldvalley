@@ -1,0 +1,66 @@
+.home-section{
+    background-image: url("/img/home/mob.png");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    height: 812px;
+}
+.home-wrapper{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.home-text{
+    font-family: "EB Garamond", sans-serif;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        text-align: center;
+        color: #fdfcf0;
+        margin-bottom: 8px;
+}
+.home-title{
+    font-family: "Lora", sans-serif;
+        font-weight: 600;
+        font-size: 42px;
+        line-height: 0.96;
+        letter-spacing: 0.14em;
+        text-transform: uppercase;
+        text-align: center;
+        color: #fdfcf0;
+        text-shadow: 8px 8px 12px 0 rgba(113, 99, 99, 0.12);
+        padding-bottom: 8px;
+border-bottom: 4px solid #fff;
+margin-bottom: 16px;
+}
+.home-text-two{
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 1.28;
+        text-align: center;
+        color: #fdfcf0;
+}
+@media only screen and (min-width: 1440px) {
+ .home-section{
+background-image: url("/img/home/desk.png");
+ }
+ .home-wrapper{
+    margin-top: 60px;
+    width: 903px;
+    margin-right: 0;
+    margin-left: auto;
+ }
+ .home-text{
+    font-size: 24px;
+ }
+ .home-title{
+    font-size: 114px;
+    margin-bottom: 32px;
+ }
+ .home-text-two{
+    width: 600px;
+    font-size: 22px;
+ }
+}
