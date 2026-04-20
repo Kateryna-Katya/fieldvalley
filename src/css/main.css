@@ -343,3 +343,32 @@ font-size: 22px;
     font-size: 22px;
   }
 }
+/* Gallery */
+.gallery-section{
+    background-image: url("/img/gallery/mob-back.png");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+}
+.gallery-container{
+    padding-left: 0;
+    padding-right: 0;
+}
+.gallery-title{
+    padding-bottom: 32px;
+}
+@media only screen and (min-width: 1440px) {
+.gallery-section{
+background-image: url("/img/gallery/desk-back.png");
+}
+.gallery-container{
+    padding-left: 176px;
+    padding-right: 176px;
+}
+.gallery-title{
+    margin-bottom: 48px;
+}
+.gallery-img{
+    width: 1088px;
+}
+}
