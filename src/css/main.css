@@ -72,6 +72,9 @@ background-image: url("/img/home/desk.png");
         background-size: cover;
 height: 887px;
 }
+.about-title{
+    text-align: left;
+}
 .about-container{
     display: flex;
     flex-direction: column;
@@ -145,9 +148,7 @@ margin-bottom: 52px;
 .life-section{
 background: #faf7f2;
 }
-.life-title{
-    text-align: center;
-}
+
 .life-text{
     font-weight: 700;
     font-size: 18px;
@@ -216,4 +217,28 @@ background: #faf7f2;
  .life-item-two{
     width: 520px;
  }
+}
+/* Exploration & Discovery */
+.exploration-text{
+    font-weight: 700;
+    font-size: 18px;
+    text-align: center;
+}
+.exploration-text-two{
+    margin-top: 8px;
+        font-weight: 700;
+        font-size: 18px;
+        text-align: center;
+        color: #647e3f;
+}
+@media only screen and (min-width: 1440px) {
+.exploration-wrapper{
+    width: 864px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.exploration-text,
+.exploration-text-two{
+font-size: 22px;
+}
 }
