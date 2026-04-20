@@ -372,3 +372,62 @@ background-image: url("/img/gallery/desk-back.png");
     width: 1088px;
 }
 }
+/* Send a Letter to the Valley */
+.contact-section{
+    background-image: url("/img/contact/mob.png");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+}
+.contact-container{
+    padding-bottom: 64px;
+}
+.contact-wrapper{
+    border-radius: 36px;
+        padding: 40px 24px;
+        width: 343px;
+        height: 340px;
+        margin-left: auto;
+        margin-right: auto;
+        box-shadow: 4px 4px 8px 0 rgba(71, 61, 61, 0.16);
+            background: #faf7f2;
+}
+.contact-text{
+    margin-top: 24px;
+    text-align: center;
+}
+.contact-link{
+    margin-top: 24px;
+    display: flex;
+align-items: center;
+justify-content: center;
+gap: 4px;
+font-family: "Lora", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 0.96;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #64613e;
+}
+@media only screen and (min-width: 1440px) {
+.contact-section{
+background-image: url("/img/contact/desk.png");
+}
+.contact-container {
+    padding-bottom: 96px;
+}
+.contact-wrapper{
+        padding: 40px;
+        width: 864px;
+        height: 281px;
+}
+.contact-text{
+    width: 480px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.contact-link{
+    font-size: 24px;
+}
+}
