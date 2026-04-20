@@ -79,6 +79,7 @@ height: 887px;
     display: flex;
     flex-direction: column;
     gap: 24px;
+    padding-top: 64px;
 }
 .about-wrapper{
     display: flex;
@@ -129,6 +130,7 @@ height: 715px;
     flex-direction: row;
     justify-content: center;
     gap: 60px;
+    padding-top: 96px;
  }
  .about-wrapper{
     width: 480px;
@@ -305,4 +307,39 @@ font-size: 22px;
 .key-item p{
     width: 240px;
 }
+}
+/* How to Play */
+.how-list{
+    margin-top: 48px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+}
+.how-item{
+    width: 240px;
+        display: flex;
+            flex-direction: column;
+            align-items: center;
+}
+.how-item-title{
+    margin-top: 16px;
+    font-weight: 700;
+    font-size: 18px;
+    text-align: center;
+    color: #647e3f;
+}
+.how-item p{
+    margin-top: 4px;
+    text-align: center;
+}
+@media only screen and (min-width: 1440px) {
+  .how-list{
+    flex-direction: row;
+    justify-content: center;
+    gap: 32px;
+  }
+  .how-item-title{
+    font-size: 22px;
+  }
 }
